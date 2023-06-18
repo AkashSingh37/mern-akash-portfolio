@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+// eslint-disable-next-line no-undef
+class App extends React.Component {
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,7 @@ function App() {
       </header>
     </div>
   );
+  }
 }
 
 export default App;
