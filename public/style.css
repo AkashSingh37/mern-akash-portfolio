@@ -18,11 +18,11 @@ body {
 }
 
 .rounded-full {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 img, video {
-  max-width: 100%;
+  max-width: 54%;
   height: auto;
 }
 

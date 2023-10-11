@@ -13,21 +13,66 @@
     <title>Akash' Portfolio</title>
 </head>
 
+<style>
+    .photo{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 92%;
+    align-items: center;
+    margin-top: 118px;
+    }
+    .imag{
+        display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 98%;
+    width: 60%;
+    }
+</style>
+
 <body>
-    <header class="header flex flex-col pt-6 h-screen">
+    <!-- <header class="header flex flex-col pt-6 h-screen">
         <div class="main w-full h-full">
             <div class="profile flex flex-col md:flex-row mx-auto md:mt-48 justify-between w-1/2 h-1/2">
                 <div class="me mt-16">
-                    <img src="assets/akash.jpeg" alt="Dev's Image" class="rounded-full">
+                    <img src="assets/akash_singh.jpg" alt="Akash's Image" class="rounded-full">
                 </div>
                 <div class="intro flex flex-col items-center justify-center text-center">
-                    <p class="name text-2xl md:text-5xl py-10">Hi, I am Akash Singh</p>
-                    <p class="job text-2xl md:text-5xl py-10">Web Developer | Data Analyist</p>
+                    <p class="name text-2xl md:text-5xl py-10">Hi, I am Akash Singh </p>
+                    <p class="name text-2xl md:text-5xl py-10 whitespace-nowrap">
+                        Aspiring Software Engineer
+                      </p>
                 </div>
             </div>
         </div>
 
+    </header> -->
+    <!-- <header class="header flex flex-col pt-6 h-screen">
+        <div class="main w-full h-full">
+            <div class="profile flex flex-col md:flex-row mx-auto  justify-between w-1/2 h-1/2">
+                <div class="me mt-16">
+                    <img src="assets/akash_singh.jpg" alt="Akash's Image" class="rounded-full" style="width: 20vh;">
+                </div>
+                <div class="intro flex flex-col items-center justify-center text-center md:text-left md:pl-10 py-10">
+                    <p class="name text-2xl md:text-5xl">Hi, I am Akash Singh</p>
+                    <p class="name text-2xl md:text-5xl whitespace-nowrap">Aspiring Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <header class="header flex flex-col pt-6 h-screen">
+       <div class="photo " >
+        <div class="imag">
+            <img src="assets/akash_singh.jpg" alt="Akash's Image" style="width: 345px" >
+        </div>
+        <div class="text">
+            <p class="name text-2xl md:text-5xl">Hi, I am Akash Singh</p>
+            <p class="name text-2xl md:text-5xl whitespace-nowrap">Aspiring Software Engineer</p>
+        </div>
+       </div>
     </header>
+    
 
     <main class="bg-black">
         <div class="projects flex flex-col text-center my-6">
@@ -49,14 +94,14 @@
                 </a>
                 <!-- CARD TEMPLATE ENDS HERE -->
                 <!-- Your project link -->
-                <a href="https://devplaylists.netlify.app/" target="_blank">
+                <a href="https://github.com/AkashSingh37/Netflix-ETL-Pipeline" target="_blank">
                     <div class="project m-6 border rounded-lg p-6 transition transform duration-300 hover:scale-110">
-                        <img src="assets/spotify.jpeg" alt="Project 2" class="w-74 h-48 rounded mb-6">
+                        <img src="assets/netflix_github.jpg" alt="Project 2" class="w-74 h-48 rounded mb-6">
                         <!-- Project Name -->
-                        <p class="text-3xl">Spotify Clone</p>
+                        <p class="text-3xl">Netflix ETL Pipeline</p>
                         <div class="skills mt-4">
-                            <!-- Add Tech Stack of Project -->
-                            <p></p>
+                            <p>An ETL Pipeline built on Azure, involving extraction of data</p>
+                            <!-- <p>Applying some transformations</p> -->
                         </div>
                     </div>
                 </a>
@@ -80,7 +125,7 @@
         <center>
             <p class="text-5xl uppercase">Resume</p>
             <br>
-            <iframe src="assets/AkashResume.pdf" width="60%" height="500px">
+            <iframe src="assets/AkashSingh_VIT.pdf" width="60%" height="500px">
             </iframe>
             <br>
         </center>
